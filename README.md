@@ -1,1 +1,13 @@
 # MS_Thesis
+
+
+
+**Interplay Between Linker Histones and Bone Marrow: Implications for Health and Disease**
+
+The primary site of blood cell formation is the bone marrow (BM), which contains a unique microenvironment that forms niches for the self-renewal and differentiation of lineage-committed progenitors, multipotent progenitors, and hematopoietic stem cells (HSCs). These progenitors are crucial for producing many blood cells required to sustain life. However, the regulation of hematopoiesis is not yet fully understood, and not all the key elements nor the regulatory layers associated have been fully dissected. Among those, linker histones (H1) play a significant role in chromatin organization and gene expression, influencing various cellular functions and disease states such as cancer and developmental disorders. However, when compared with the core histones, the area of linker histones research is underexplored in both mechanisms and their role in biological processes associated with health and disease. This study aims to deepen our understanding of linker histones within the bone marrow niche, focusing on their role in healthy hematopoiesis and in multiple myeloma(MM) as a case study for oncological diseases.
+
+In the first part of the study, our aim was the characterization of the H1 role in healthy hematopoiesis. Therefore, we employed single-cell sequencing to unravel the expression patterns of H1 in the healthy BM niche in humans. Our research revealed that the different H1’s expressions show various trends across the single-cell level in the bone marrow niche. Furthermore, we made use of H1 knock-out studies to rank the differentially expressed H1 as a way to identify the most likely H1 involved in that process.  As a result, we identified H1 candidates of relevance for each of the cell type differentiation transitions.
+
+In the second part of the study we examined H1 expression patterns in MM plasma cell, to investigate their contributions to cancer progression and pathogenesis. We identified a decrease in H1 genes expression during MM disease progression from healthy to monoclonal gammopathy of unknown significance(MGUS) to Smoldering multiple myeloma (SMM) to MM. Lastly, we compared the effect of H1 single knock-out data with the transcriptomic outcome of MM to enhance our understanding of their functional significance in MM progression.  The effects of the SKO of HIST1H1D and H1FX in hESC align with the changes observed in MM, suggesting that they may play a role in disease progression or severity.
+
+In summary, our study shows the relevance of H1 as an element to be further dissected in order to generate a complete understanding of hematopoiesis and MM.
