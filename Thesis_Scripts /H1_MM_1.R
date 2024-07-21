@@ -16,7 +16,7 @@ head(gene_anno)
 
 DEA <- read.table("/home/alsultfh/H1_Project/DATA/Fatima/20230615_dea_results.txt", header = TRUE, sep = "\t", row.names = 1, comment.char = "")
 #pathway <- read.table("~/Desktop/H1/fgseaRes.txt", header = TRUE, sep = "\t", comment.char = "")
-pathway <- fgsea::gmtPathways('/Users/Alsultfh/Desktop/H1/Alexsandra/c5.go.bp.v2023.2.Hs.symbols.gmt')
+pathway <- fgsea::gmtPathways('/Users/Alsultfh/Desktop/H1/Fatima/c5.go.bp.v2023.2.Hs.symbols.gmt')
 #Anodata ??
 #merge ...
 
@@ -44,10 +44,10 @@ for (contrast in interesting_contrasts) {
 
 ##
 
-saveRDS(results, '/Users/Alsultfh/Desktop/H1/Alexsandra/FgseaResults_ALL_Contrasts.rds')
+saveRDS(results, '/Users/Alsultfh/Desktop/H1/Fatimah/FgseaResults_ALL_Contrasts.rds')
 
 for (contrast in interesting_contrasts) {
-  pdf(paste0('/Users/Alsultfh/Desktop/H1/Alexsandra/TopBottomGSEA_',contrast,'.pdf'))
+  pdf(paste0('/Users/Alsultfh/Desktop/H1/Fatimah/TopBottomGSEA_',contrast,'.pdf'))
   print(contrast)
   fgseaRes <- results[[contrast]] 
   topPathwaysUp <- fgseaRes[ES > 0][head(order(pval), n=10), pathway]
@@ -61,7 +61,7 @@ for (contrast in interesting_contrasts) {
 
 ###### Expression analysis 
 
-#load("~/Desktop/H1/Alexsandra/voom_to_dea.RData")
+#load("~/Desktop/H1/Fatimah/voom_to_dea.RData")
 
 
 #metadata <- read.table("/home/alsultfh/metadata.txt", sep="\t", header = TRUE)
@@ -210,7 +210,7 @@ DKO_H1 <- read_excel("~/Desktop/H1/Sumaya/DEG_genes_DKO_WT_contrasts.xls")
 
 
 SKO_H1 <- read_excel("~/Desktop/H1/Sumaya/DEG_genes_SKO_WT_contrasts.xls")
-pathway <- fgsea::gmtPathways('/Users/Alsultfh/Desktop/H1/Alexsandra/c5.go.bp.v2023.2.Hs.symbols.gmt')
+pathway <- fgsea::gmtPathways('/Users/Alsultfh/Desktop/H1/Fatimah/c5.go.bp.v2023.2.Hs.symbols.gmt')
 
 #subset_pathway?
 
